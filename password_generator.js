@@ -6,7 +6,6 @@ function passGen(){
     for(let i=0;i<passLength;i++){
         let randNumber=Math.floor(Math.random()*str.length);
         password+=str.substring(randNumber,randNumber+1);
-
     }
     document.querySelector("#password").value=password;
 }
